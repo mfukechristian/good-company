@@ -43,6 +43,7 @@ body {
 	border: none;
 	cursor: pointer;
 	margin-bottom: 20px;
+	background-color: #fff;
 }
 
 .sidebar ul li a.menu-item {
