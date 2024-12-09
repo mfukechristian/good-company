@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { IoIosStarOutline } from "react-icons/io";
 import { MdFormatAlignLeft } from "react-icons/md";
 
-function Home() {
+function Chat() {
 	const [items, setItems] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -12,37 +12,37 @@ function Home() {
 			setItems([
 				{
 					title:
-						"Understanding Big Data: Explore the complexities of big data, including storage, processing, and analysis techniques for large-scale datasets.",
+						"AI-Powered Chatbots: Discover how AI chatbots are revolutionizing customer service by offering instant and personalized responses.",
 					date: "3 days ago",
 					id: 1,
 				},
 				{
 					title:
-						"Cloud Computing Essentials: Learn about cloud infrastructure, virtualization, and deployment models to streamline your projects.",
+						"Natural Language Processing (NLP): Understand how NLP enables machines to interpret, understand, and respond to human language.",
 					date: "4 days ago",
 					id: 2,
 				},
 				{
 					title:
-						"Building Scalable Applications: Discover strategies and best practices for designing and implementing scalable software systems.",
-					date: "2 days ago",
+						"Conversational AI Applications: Learn about applications of conversational AI in industries like healthcare, finance, and e-commerce.",
+					date: "1 day ago",
 					id: 3,
 				},
 				{
 					title:
-						"Cybersecurity Fundamentals: Gain insights into protecting networks, data, and systems from cyber threats and vulnerabilities.",
+						"Real-Time Translation Tools: Explore how chat systems with real-time translation are bridging language barriers globally.",
 					date: "5 days ago",
 					id: 4,
 				},
 				{
 					title:
-						"Introduction to Internet of Things (IoT): Understand the interconnectedness of smart devices and how they can transform industries.",
+						"Voice-Based Assistants: Dive into the technology behind virtual assistants like Alexa and Google Assistant for voice-based interactions.",
 					date: "6 days ago",
 					id: 5,
 				},
 				{
 					title:
-						"Blockchain Technology Basics: Learn about blockchain's decentralized nature and its applications in finance, healthcare, and beyond.",
+						"Secure Messaging Platforms: Learn about encryption technologies that ensure data privacy and security in chat applications.",
 					date: "1 week ago",
 					id: 6,
 				},
@@ -54,7 +54,7 @@ function Home() {
 	return (
 		<div className="dashboard">
 			<div className="dashboard-header">
-				<h2>Home Items</h2>
+				<h2>Chat Topics</h2>
 				<button className="dashboard-show-all">Show All</button>
 			</div>
 			<div className="card-grid">
@@ -105,4 +105,4 @@ function Home() {
 	);
 }
 
-export default Home;
+export default Chat;

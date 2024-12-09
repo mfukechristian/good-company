@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { IoIosStarOutline } from "react-icons/io";
 import { MdFormatAlignLeft } from "react-icons/md";
 
-function Home() {
+function Market() {
 	const [items, setItems] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -12,37 +12,37 @@ function Home() {
 			setItems([
 				{
 					title:
-						"Understanding Big Data: Explore the complexities of big data, including storage, processing, and analysis techniques for large-scale datasets.",
-					date: "3 days ago",
+						"E-commerce Trends 2023: Explore the latest trends in online shopping and how businesses are adapting to meet customer demands.",
+					date: "2 days ago",
 					id: 1,
 				},
 				{
 					title:
-						"Cloud Computing Essentials: Learn about cloud infrastructure, virtualization, and deployment models to streamline your projects.",
+						"Understanding Digital Marketing: Learn how to leverage SEO, social media, and content strategies to drive online sales.",
 					date: "4 days ago",
 					id: 2,
 				},
 				{
 					title:
-						"Building Scalable Applications: Discover strategies and best practices for designing and implementing scalable software systems.",
-					date: "2 days ago",
+						"Supply Chain Optimization: Discover how technology is streamlining logistics and inventory management in the retail industry.",
+					date: "1 day ago",
 					id: 3,
 				},
 				{
 					title:
-						"Cybersecurity Fundamentals: Gain insights into protecting networks, data, and systems from cyber threats and vulnerabilities.",
+						"Customer Relationship Management (CRM): Understand the role of CRM tools in enhancing customer engagement and retention.",
 					date: "5 days ago",
 					id: 4,
 				},
 				{
 					title:
-						"Introduction to Internet of Things (IoT): Understand the interconnectedness of smart devices and how they can transform industries.",
+						"Mobile Commerce Growth: Dive into the rise of mobile commerce and how it's transforming consumer behavior.",
 					date: "6 days ago",
 					id: 5,
 				},
 				{
 					title:
-						"Blockchain Technology Basics: Learn about blockchain's decentralized nature and its applications in finance, healthcare, and beyond.",
+						"Sustainable Business Practices: Learn how businesses are adopting eco-friendly strategies to meet market demands.",
 					date: "1 week ago",
 					id: 6,
 				},
@@ -54,7 +54,7 @@ function Home() {
 	return (
 		<div className="dashboard">
 			<div className="dashboard-header">
-				<h2>Home Items</h2>
+				<h2>Market Insights</h2>
 				<button className="dashboard-show-all">Show All</button>
 			</div>
 			<div className="card-grid">
@@ -105,4 +105,4 @@ function Home() {
 	);
 }
 
-export default Home;
+export default Market;
